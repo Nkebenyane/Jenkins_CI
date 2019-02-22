@@ -1,0 +1,22 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Fri Feb 22 09:02:58 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01":  LEARNING_SCHEMA/******** tables=EMP,DEPT directory=TEST_DIR dumpfile=EMP_DEPT.dmp logfile=expdpEMP_DEPT.log 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 128 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "LEARNING_SCHEMA"."DEPT"                    5.945 KB       4 rows
+. . exported "LEARNING_SCHEMA"."EMP"                     8.578 KB      14 rows
+Master table "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for LEARNING_SCHEMA.SYS_EXPORT_TABLE_01 is:
+  C:\USERS\MAIPATO.NKEBENYANE\DESKTOP\IMPORT\EXPDP\EMP_DEPT.DMP
+Job "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01" successfully completed at 09:03:04
