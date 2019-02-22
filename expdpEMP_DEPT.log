@@ -1,22 +1,22 @@
 ;;; 
-Export: Release 11.2.0.2.0 - Production on Fri Feb 22 10:12:40 2019
+Export: Release 11.2.0.2.0 - Production on Fri Feb 22 11:25:05 2019
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
 Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
-Starting "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01":  LEARNING_SCHEMA/******** tables=USERS directory=TEST_DIR dumpfile=USERS.dmp logfile=expdp_USERS.log 
+Starting "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01":  LEARNING_SCHEMA/******** tables=EMP,DEPT directory=test_ dumpfile=EMP_DEPT.dmp logfile=expdpEMP_DEPT.log 
 Estimate in progress using BLOCKS method...
 Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
-Total estimation using BLOCKS method: 64 KB
+Total estimation using BLOCKS method: 192 KB
 Processing object type TABLE_EXPORT/TABLE/TABLE
-Processing object type TABLE_EXPORT/TABLE/INDEX/INDEX
 Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
 Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
-Processing object type TABLE_EXPORT/TABLE/TRIGGER
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
 Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
-. . exported "LEARNING_SCHEMA"."USERS"                   6.382 KB       4 rows
+. . exported "LEARNING_SCHEMA"."DEPT"                    5.945 KB       4 rows
+. . exported "LEARNING_SCHEMA"."EMP"                     8.578 KB      14 rows
 Master table "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
 ******************************************************************************
 Dump file set for LEARNING_SCHEMA.SYS_EXPORT_TABLE_01 is:
-  C:\USERS\MAIPATO.NKEBENYANE\DESKTOP\IMPORT\EXPDP\USERS.DMP
-Job "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01" successfully completed at 10:12:46
+  C:\USERS\MAIPATO.NKEBENYANE\DESKTOP\IMPORT\EXPDP\EMP_DEPT.DMP
+Job "LEARNING_SCHEMA"."SYS_EXPORT_TABLE_01" successfully completed at 11:25:11
