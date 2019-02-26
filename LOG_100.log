@@ -1,10 +1,10 @@
 ;;; 
-Export: Release 11.2.0.2.0 - Production on Tue Feb 26 19:05:39 2019
+Export: Release 11.2.0.2.0 - Production on Tue Feb 26 19:51:53 2019
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
 Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
-Starting "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01":  LEARNING_SCHEMA/********@localhost:1521 directory=git dumpfile=100.dmp logfile=LOG_100.log SCHEMAS=LEARNING_SCHEMA include=table:"IN \(\'DEMO_CUSTOMERS\',\'DEMO_ORDERS\',\'DEMO_ORDER_ITEMS\',\'DEMO_PRODUCT_INFO\',\'DEMO_STATES\',\'DEMO_USERS\'\)",sequence:"IN \(\'DEMO_ORD_SEQ\'\)",package:"IN \(\'\'\)",view:"IN \(\'\'\)",synonym:"IN \(\'\'\)",function:"IN \(\'CUSTOM_HASH\'\)",trigger:"IN \(\'\'\)",procedure:"IN \(\'\'\)",index:"IN \(\'DEMO_CUSTOMERS_PK\',\'DEMO_CUSTOMERS_UK\',\'DEMO_CUST_NAME_IX\',\'DEMO_ORDER_PK\',\'DEMO_ORD_CUSTOMER_IX\',\'DEMO_ORDER_ITEMS_PK\',\'DEMO_ORDER_ITEMS_UK\',\'SYS_IL0000024886C00007$$\',\'DEMO_PRODUCT_INFO_PK\',\'DEMO_PRODUCT_INFO_UK\',\'DEMO_USERS_PK\'\)" 
+Starting "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01":  LEARNING_SCHEMA/********@localhost:1521 directory=expdp dumpfile=100.dmp logfile=LOG_100.log SCHEMAS=LEARNING_SCHEMA include=table:"IN \(\'DEMO_CUSTOMERS\',\'DEMO_ORDERS\',\'DEMO_ORDER_ITEMS\',\'DEMO_PRODUCT_INFO\',\'DEMO_STATES\',\'DEMO_USERS\'\)",sequence:"IN \(\'DEMO_ORD_SEQ\'\)",package:"IN \(\'\'\)",view:"IN \(\'\'\)",synonym:"IN \(\'\'\)",function:"IN \(\'CUSTOM_HASH\'\)",trigger:"IN \(\'\'\)",procedure:"IN \(\'\'\)",index:"IN \(\'DEMO_CUSTOMERS_PK\',\'DEMO_CUSTOMERS_UK\',\'DEMO_CUST_NAME_IX\',\'DEMO_ORDER_PK\',\'DEMO_ORD_CUSTOMER_IX\',\'DEMO_ORDER_ITEMS_PK\',\'DEMO_ORDER_ITEMS_UK\',\'SYS_IL0000024886C00007$$\',\'DEMO_PRODUCT_INFO_PK\',\'DEMO_PRODUCT_INFO_UK\',\'DEMO_USERS_PK\'\)" 
 Estimate in progress using BLOCKS method...
 Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
 Total estimation using BLOCKS method: 448 KB
@@ -32,4 +32,4 @@ Master table "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" successfully loaded/unload
 ******************************************************************************
 Dump file set for LEARNING_SCHEMA.SYS_EXPORT_SCHEMA_01 is:
   C:\CLONE\100.DMP
-Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 19:05:46
+Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 19:51:56
