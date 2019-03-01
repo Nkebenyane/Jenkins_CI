@@ -27,7 +27,7 @@ prompt APPLICATION 100 - Sample Application
 -- Application Export:
 --   Application:     100
 --   Name:            Sample Application
---   Date and Time:   10:30 Friday March 1, 2019
+--   Date and Time:   10:32 Friday March 1, 2019
 --   Exported By:     LEARNING_SCHEMA
 --   Flashback:       0
 --   Export Type:     Application Export

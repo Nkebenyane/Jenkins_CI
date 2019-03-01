@@ -1,5 +1,5 @@
 ;;; 
-Export: Release 11.2.0.2.0 - Production on Fri Mar 1 10:30:13 2019
+Export: Release 11.2.0.2.0 - Production on Fri Mar 1 10:32:29 2019
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
@@ -32,4 +32,4 @@ Master table "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" successfully loaded/unload
 ******************************************************************************
 Dump file set for LEARNING_SCHEMA.SYS_EXPORT_SCHEMA_01 is:
   C:\CLONE\100.DMP
-Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 10:30:18
+Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 10:32:35
