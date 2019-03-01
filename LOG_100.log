@@ -1,5 +1,5 @@
 ;;; 
-Export: Release 11.2.0.2.0 - Production on Fri Mar 1 08:19:49 2019
+Export: Release 11.2.0.2.0 - Production on Fri Mar 1 09:39:04 2019
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
@@ -7,7 +7,7 @@ Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Pro
 Starting "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01":  LEARNING_SCHEMA/********@localhost:1521 directory=git dumpfile=100.dmp logfile=LOG_100.log SCHEMAS=LEARNING_SCHEMA include=table:"IN \(\'DEMO_CUSTOMERS\',\'DEMO_ORDERS\',\'DEMO_ORDER_ITEMS\',\'DEMO_PRODUCT_INFO\',\'DEMO_STATES\',\'DEMO_USERS\'\)",sequence:"IN \(\'DEMO_ORD_SEQ\'\)",package:"IN \(\'\'\)",view:"IN \(\'\'\)",synonym:"IN \(\'\'\)",function:"IN \(\'CUSTOM_HASH\'\)",trigger:"IN \(\'\'\)",procedure:"IN \(\'\'\)",index:"IN \(\'DEMO_CUSTOMERS_PK\',\'DEMO_CUSTOMERS_UK\',\'DEMO_CUST_NAME_IX\',\'DEMO_ORDER_PK\',\'DEMO_ORD_CUSTOMER_IX\',\'DEMO_ORDER_ITEMS_PK\',\'DEMO_ORDER_ITEMS_UK\',\'SYS_IL0000024886C00007$$\',\'DEMO_PRODUCT_INFO_PK\',\'DEMO_PRODUCT_INFO_UK\',\'DEMO_USERS_PK\'\)" 
 Estimate in progress using BLOCKS method...
 Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
-Total estimation using BLOCKS method: 640 KB
+Total estimation using BLOCKS method: 768 KB
 Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
 Processing object type SCHEMA_EXPORT/TABLE/TABLE
 Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
@@ -17,12 +17,12 @@ Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
 Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
 Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
 Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
-. . exported "LEARNING_SCHEMA"."DEMO_STATES"             58.53 KB    3264 rows
+. . exported "LEARNING_SCHEMA"."DEMO_STATES"             164.7 KB    9792 rows
 . . exported "LEARNING_SCHEMA"."DEMO_PRODUCT_INFO"       25.39 KB      10 rows
 . . exported "LEARNING_SCHEMA"."DEMO_CUSTOMERS"          11.03 KB       7 rows
 . . exported "LEARNING_SCHEMA"."DEMO_ORDERS"             7.375 KB      10 rows
 . . exported "LEARNING_SCHEMA"."DEMO_ORDER_ITEMS"        7.742 KB      49 rows
-. . exported "LEARNING_SCHEMA"."DEMO_USERS"              15.50 KB     128 rows
+. . exported "LEARNING_SCHEMA"."DEMO_USERS"              31.00 KB     384 rows
 ORA-39168: Object path PACKAGE was not found.
 ORA-39168: Object path VIEW was not found.
 ORA-39168: Object path SYNONYM was not found.
@@ -32,4 +32,4 @@ Master table "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" successfully loaded/unload
 ******************************************************************************
 Dump file set for LEARNING_SCHEMA.SYS_EXPORT_SCHEMA_01 is:
   C:\CLONE\100.DMP
-Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 08:19:55
+Job "LEARNING_SCHEMA"."SYS_EXPORT_SCHEMA_01" completed with 5 error(s) at 09:39:20
